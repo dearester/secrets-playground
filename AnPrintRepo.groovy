@@ -20,9 +20,6 @@
  *
  * Apart from Groovy (and Java), you do not need to install any libraries on your system as the script will download them when you first start it
  * The first run may take some time as required dependencies have to get downloaded, then it should be quite fast
- *  
- * If you do not have groovy yet, run 'brew install groovy' on a Mac, for Windows and Linux follow the instructions here:
- * http://groovy-lang.org/install.html
  *
  */
 
