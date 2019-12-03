@@ -1,0 +1,1 @@
+var searchClient = algoliasearch('8EX9COO9QQ', 'ab8e54c01t8c9672d7ce74bfedq73vz0');
