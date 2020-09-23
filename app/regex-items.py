@@ -16,9 +16,6 @@ some_password = 'sUperSecRets!'
 someother_password = "sUper2SecRets!"
 somemore_password="sUper3SecRets!"
 somemores_password='sUper4SecRets!'
-yet_password = morethings_here #just a test
-secret_sauce = 'Sp1cyP@ss1'
-my_secret_token= "Sp1cyP@ss2"
 
 # XML passwords (this might fail since not an XML file
 <password>F0unDinXML</password>
@@ -27,3 +24,8 @@ my_secret_token= "Sp1cyP@ss2"
 
 # More things in other formats
 Data Source=myServerAddress;location=myDataBase;User ID=myUsername;password=mySecRetsd;timeout=1000;
+
+#These things are not found yet, but should be 9/22 - Corey
+yet_password = morethings_here #just a test
+secret_sauce = 'Sp1cyP@ss1'
+my_secret_token= "Sp1cyP@ss2"
