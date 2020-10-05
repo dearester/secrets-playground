@@ -13,6 +13,9 @@ password = System.getenv("OMG_PASSWORD")
 password = credential["password"]
 super_password = 123456
 super2_password = '********'
+password = args['OMG_ARG_ONE']
+password = args["XMG_ARG_TWO"]
+
 
 # The following items should be found and reported
 URL = 'https://root:F1ndM3USec@host:8080/goodthings'
@@ -23,6 +26,7 @@ some_password = 'sUperSecRets!'
 someother_password = "sUper2SecRets!"
 somemore_password="sUper3SecRets!"
 somemores_password='sUper4SecRets!'
+real_arg_password = "SuPargsCatF33d[99]"
 
 # XML passwords (this might fail since not an XML file
 <password>F0unDinXML</password>
