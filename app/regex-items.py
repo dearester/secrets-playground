@@ -3,9 +3,16 @@
 import os
 import sys
 
-# Here are things that should match, but be filtered out
+# Here are things that should match, but be FILTERED out
 URL = 'https://root:changeme@host:8080/otherthings'
+URL2 = "https://$user:$pass@$host"
 some_password = "admin123"
+password = "${ACCESS_TOKEN}"
+password = os.environ.get("SOMETHING")
+password = System.getenv("OMG_PASSWORD")
+password = credential["password"]
+super_password = 123456
+super2_password = '********'
 
 # The following items should be found and reported
 URL = 'https://root:F1ndM3USec@host:8080/goodthings'
