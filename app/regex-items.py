@@ -10,6 +10,7 @@ some_password = "admin123"
 password = "${ACCESS_TOKEN}"
 password = os.environ.get("SOMETHING")
 password = System.getenv("OMG_PASSWORD")
+password = system.getenv("omg-little_PASSWORD")
 password = credential["password"]
 super_password = 123456
 super2_password = '********'
@@ -27,6 +28,7 @@ someother_password = "sUper2SecRets!"
 somemore_password="sUper3SecRets!"
 somemores_password='sUper4SecRets!'
 real_arg_password = "SuPargsCatF33d[99]"
+real_env_password = "sYstem-Staple-Getenv-Secret"
 
 # XML passwords (this might fail since not an XML file
 <password>F0unDinXML</password>
